@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+background-color: #060606;
+background-image: url('../starz.webp')
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+color: #06838E;
+text-align: center;
+font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (min-width: 768px){
+  body {
+
+  }
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+font-family: creepster;
+font-size: 2.5rem;
+text-shadow: 3px 5px 7px yellowgreen;
+}
+
+@media screen and (min-width: 768px){
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+h2, h3 {
+  font-size: 1.2rem;
+  
+}
+
+@media screen and (min-width: 768px){
+  h2, h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.selectCharacter {
+  background: yellowgreen;
+  border-radius: 4px;
+  font-size: .80rem;
+  text-align-last: center;
+  padding: 3px 0 3px 0;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+  .selectCharacter {
+    font-size: 1.2rem;
+  }
+}
+
+img {
+  /* border-radius: ; */
+  width: 300px;
+  
+}
+@media screen and (min-width: 768px){
+  img {
+    width: 400px;
+  }
+}
+
+footer {
+  margin-top: 27px;
+  font-weight: bold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
